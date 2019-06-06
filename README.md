@@ -1,31 +1,36 @@
-ng-tour-app
+**ng-tour-app**
+
 ```
 This application is useful when we want the tour options with description in our applications page with navigation.
+```
 
-Dependency
+**Dependency**
 ```
 Bootstrap, Jquery, Font Awesome
-
-Demo
 ```
-   
 
-How to use it in your project
+**Application live demo**
+```
+[https://ng-tour-view.herokuapp.com/](https://ng-tour-view.herokuapp.com/).
+```
+
+#How to use it in your project
+```
+download it from npm
+````
 
 ```
-> download it from npm
-
-```bash
 npm install app-page-tour --save
+````
+
+
+**use the tour Component in your project, you just need to imports into your module**
+
 ```
-
-use the scattered Chart Component in your project, you just need to imports into your module;
-
-```es6
 import { AppTourComponent } from './ng-tour-app/ng-tour.component';
 ```
 
-Add it in a html tag in component file, such as:
+**Add it in a html tag in component file, such as:**
 ```
 <app-page-tour *ngIf="showTourFlag" 
     [pageTourConfig]="tourData" 
@@ -36,7 +41,7 @@ Add it in a html tag in component file, such as:
 
 ```
 
-Add the config in component code file, such as:
+**Add the config in component code file, such as:**
 ```
   showTourFlag = true;
   tourData: any;
@@ -59,7 +64,7 @@ Add the config in component code file, such as:
 
 ```
 
-#### Properties
+**Properties**
 
 | Name             | Default Value                                                         |
 |------------------|-----------------------------------------------------------------------|
