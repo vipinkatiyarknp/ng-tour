@@ -7,11 +7,29 @@ This application is useful when we want the tour options with description in our
 **Dependency**
 ```
 Bootstrap, Jquery, Font Awesome
+
+#install jqery
+add this into script section of angular.json
+"scripts": ["./node_modules/jquery/dist/jquery.min.js"]
+
+#install font awesome
+add this into style section of angular.json
+"styles": [
+              ...
+              "node_modules/font-awesome/css/font-awesome.css"
+            ]
+
+#install bootstrap css
+add this into style section of angular.json
+"styles": [
+              ...
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+            ]
 ```
 
 **Application live demo**
 ```
-* live link: [https://ng-tour-view.herokuapp.com/](https://ng-tour-view.herokuapp.com/).
+live link: [https://ng-tour-view.herokuapp.com/](https://ng-tour-view.herokuapp.com/).
 ```
 
 #How to use it in your project
