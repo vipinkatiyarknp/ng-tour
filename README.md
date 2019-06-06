@@ -8,12 +8,12 @@ This application is useful when we want the tour options with description in our
 ```
 Bootstrap, Jquery, Font Awesome
 
-#install jqery
+**#install jqery**
 npm install jquery --save
 add this into script section of angular.json
 "scripts": ["./node_modules/jquery/dist/jquery.min.js"]
 
-#install font awesome
+**#install font awesome**
 npm install font-awesome --save
 add this into style section of angular.json
 "styles": [
@@ -21,7 +21,7 @@ add this into style section of angular.json
               "node_modules/font-awesome/css/font-awesome.css"
             ]
 
-#install bootstrap css
+**#install bootstrap css**
 npm install bootstrap --save
 add this into style section of angular.json
 "styles": [
