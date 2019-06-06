@@ -1,16 +1,18 @@
-# ng-tour-app
-
+ng-tour-app
+```
 This application is useful when we want the tour options with description in our applications page with navigation.
 
-#Dependency
-
+Dependency
+```
 Bootstrap, Jquery, Font Awesome
 
-### Demo
-
+Demo
+```
    
 
-#### How to use it in your project
+How to use it in your project
+
+```
 > download it from npm
 
 ```bash
