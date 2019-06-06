@@ -1,0 +1,17 @@
+<div class="tourPopup-container">
+  <div class="container panel-popup-tour">
+    <div class="panel panel-default" *ngIf="selectedTourElem">
+      <span class="triangle" style="left:10px;top:-10px"></span>
+      <div class="panel-heading">{{selectedTourElem && selectedTourElem.heading}}</div>
+      <div class="panel-body">{{selectedTourElem && selectedTourElem.description}}</div>
+      <div class="panel-footer">
+        <span class="btn-css btn-css-prev" (click)="gotoPrev()" *ngIf="showHidePrev"><i class="fa fa-arrow-left"></i> Prev</span>
+        <span class="btn-css btn-css-next" (click)="gotoNext()" *ngIf="showHideNext">Next <i class="fa fa-arrow-right"></i></span>
+        <span class="btn-css btn-css-close" (click)="gotoClose()">Close <i class="fa fa-times"></i></span>
+      </div>
+    </div>
+  </div>
+  <div class="container backdrop-tour-popup">
+
+  </div>
+</div>

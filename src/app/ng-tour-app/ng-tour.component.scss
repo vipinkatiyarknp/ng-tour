@@ -1,0 +1,64 @@
+.tourPopup-container{
+    .panel-popup-tour{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 10000001;
+        background: #FFF;
+        padding:0px;
+        box-shadow: 0 0.3125em 1.25em 0 rgba(46, 61, 73, 0.26);
+        border-radius: 5px;
+        .panel-footer{
+            background: #FFF;
+            padding: 15px 5px 10px 5px;
+            border-top:none;
+        }
+        .panel-heading{
+            padding: 5px;
+            background:#aed5f9;
+            font-size: 14px;
+            font-weight: 500;
+            color:#666;
+        }
+        .panel-body{
+            padding: 5px;
+            height: 100px;
+            overflow: scroll;
+        }
+        .panel-default{
+            margin:0;
+        }
+    }
+    .backdrop-tour-popup{
+        /*position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background: #333333;
+        opacity: 0.2;
+        height: 100%;
+        z-index: 10000000;*/
+    }
+    .btn-css{
+        font-size: 12px;
+        font-weight: 500;
+        margin: 3px;
+        cursor: pointer;
+       color:#FFF;
+        padding: 5px 10px 5px 5px;
+    }
+    .btn-css-next,.btn-css-prev{
+        background: #75bd75;
+    }
+    .btn-css-close{
+        background: #D84C3D;
+    }
+    .triangle{
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 10px 10px 10px;
+        border-color: transparent transparent #aed5f9 transparent;
+        position: absolute;
+    }
+}
