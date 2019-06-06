@@ -11,7 +11,7 @@ Bootstrap, Jquery, Font Awesome
 
 **Application live demo**
 ```
-[https://ng-tour-view.herokuapp.com/](https://ng-tour-view.herokuapp.com/).
+* live link: [https://ng-tour-view.herokuapp.com/](https://ng-tour-view.herokuapp.com/).
 ```
 
 #How to use it in your project
